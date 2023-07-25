@@ -1,0 +1,76 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/kit
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/nuxi
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/nuxt
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/schema
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/test-utils
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vite
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/webpack
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /playground
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/fixtures/basic-types
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/fixtures/basic
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/fixtures/minimal-types
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/fixtures/minimal
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /test/fixtures/runtime-compiler
+    schedule:
+      interval: daily
